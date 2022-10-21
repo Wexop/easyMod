@@ -67,7 +67,7 @@
   ],
   "spawners": {
     "type": "test:ender_chicken",
-    "weight": 11,
+    "weight": 15,
     "minCount": 1,
     "maxCount": 4
   }

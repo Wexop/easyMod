@@ -122,7 +122,7 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 11,
+    "spawningProbability": 15,
     "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
@@ -395,6 +395,6 @@
         "value": "wooded_badlands_plateau"
       }
     ],
-    "spawnInDungeons": false
+    "spawnInDungeons": true
   }
 }

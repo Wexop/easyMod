@@ -18,7 +18,7 @@ public class RandomeoreBlockDestroyedByPlayerProcedure {
 		roll = Math.random();
 		dropp_roll = Math.random() * 3;
 		drop_roll_notrare = Math.random() * 6;
-		if (roll >= 0.9) {
+		if (roll >= 0.95) {
 			for (int index0 = 0; index0 < (int) (dropp_roll); index0++) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.DIAMOND));
@@ -33,7 +33,7 @@ public class RandomeoreBlockDestroyedByPlayerProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
-		} else if (roll >= 0.7 && roll < 0.9) {
+		} else if (roll >= 0.85 && roll < 0.95) {
 			for (int index2 = 0; index2 < (int) (drop_roll_notrare); index2++) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.LAPIS_LAZULI));
@@ -48,7 +48,7 @@ public class RandomeoreBlockDestroyedByPlayerProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
-		} else if (roll >= 0.4 && roll < 0.7) {
+		} else if (roll >= 0.4 && roll < 0.85) {
 			for (int index4 = 0; index4 < (int) (drop_roll_notrare); index4++) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Blocks.IRON_ORE));
@@ -63,7 +63,7 @@ public class RandomeoreBlockDestroyedByPlayerProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
-		} else if (roll >= 0.1 && roll < 0.4) {
+		} else if (roll >= 0.05 && roll < 0.4) {
 			for (int index6 = 0; index6 < (int) (drop_roll_notrare); index6++) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Blocks.GOLD_ORE));
@@ -85,7 +85,7 @@ public class RandomeoreBlockDestroyedByPlayerProcedure {
 					_level.addFreshEntity(entityToSpawn);
 				}
 			}
-		} else if (roll >= 0 && roll < 0.1) {
+		} else if (roll >= 0 && roll < 0.05) {
 			for (int index9 = 0; index9 < (int) (dropp_roll); index9++) {
 				if (world instanceof Level _level && !_level.isClientSide()) {
 					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(Items.EMERALD));

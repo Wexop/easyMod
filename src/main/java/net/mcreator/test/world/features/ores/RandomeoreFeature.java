@@ -46,7 +46,7 @@ public class RandomeoreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("test:randomeore", FEATURE,
 				new OreConfiguration(RandomeoreFeatureRuleTest.INSTANCE, TestModBlocks.RANDOMEORE.get().defaultBlockState(), 10));
 		PLACED_FEATURE = PlacementUtils.register("test:randomeore", CONFIGURED_FEATURE, List.of(CountPlacement.of(11), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60)), BiomeFilter.biome()));
+				HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(60)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
