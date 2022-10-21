@@ -37,6 +37,7 @@
     "snowy_slopes",
     "deep_ocean",
     "deep_frozen_ocean",
+    "nether_wastes",
     "bamboo_jungle",
     "soul_sand_valley",
     "small_end_islands",
@@ -54,6 +55,7 @@
     "grove",
     "old_growth_pine_taiga",
     "beach",
+    "the_void",
     "windswept_forest",
     "windswept_gravelly_hills",
     "river",
@@ -61,7 +63,7 @@
   ],
   "spawners": {
     "type": "test:mineur",
-    "weight": 10,
+    "weight": 20,
     "minCount": 1,
     "maxCount": 2
   }
