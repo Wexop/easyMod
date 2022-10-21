@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "test:block/xp_ore"
+    }
+  }
+}

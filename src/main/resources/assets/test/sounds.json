@@ -1,0 +1,83 @@
+{
+  "mineur": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:bruit_mineur",
+        "stream": false
+      }
+    ]
+  },
+  "pas_mineur": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:pas_mineur",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_mineur": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:attaque_mineur",
+        "stream": false
+      }
+    ]
+  },
+  "mineur_meurs": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:mineur_meur",
+        "stream": false
+      }
+    ]
+  },
+  "attaque_mineur": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:attaque_mineur",
+        "stream": false
+      }
+    ]
+  },
+  "enderpoulevie": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:enderpoulevie",
+        "stream": false
+      }
+    ]
+  },
+  "enderpoulepas": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:enderpoulepas",
+        "stream": false
+      }
+    ]
+  },
+  "enderpouleaie": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:enderpouleaie",
+        "stream": false
+      }
+    ]
+  },
+  "enderpoulemort": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "test:enderpoulemort",
+        "stream": false
+      }
+    ]
+  }
+}

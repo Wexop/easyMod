@@ -1,0 +1,290 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SlimeOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_ore"
+    },
+    {
+      "name": "Slime_ouiOreSmelting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_oui_ore_smelting"
+    },
+    {
+      "name": "XpOre",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_ore"
+    },
+    {
+      "name": "Mineur",
+      "type": "mob",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineur"
+    },
+    {
+      "name": "MineurEntityDies",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineur_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XpOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RandomeoreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "randomeore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Randomeore",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "randomeore"
+    },
+    {
+      "name": "EnderChicken",
+      "type": "mob",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_chicken"
+    },
+    {
+      "name": "EnderChickenOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_chicken_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnderChickenEntityDies",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_chicken_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LittleMinerGUI",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "little_miner_gui"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "mineur",
+      "file": "bruit_mineur",
+      "category": "master"
+    },
+    {
+      "name": "pas_mineur",
+      "file": "pas_mineur",
+      "category": "master"
+    },
+    {
+      "name": "hurt_mineur",
+      "file": "attaque_mineur",
+      "category": "master"
+    },
+    {
+      "name": "mineur_meurs",
+      "file": "mineur_meur",
+      "category": "master"
+    },
+    {
+      "name": "attaque_mineur",
+      "file": "attaque_mineur",
+      "category": "master"
+    },
+    {
+      "name": "enderpoulevie",
+      "file": "enderpoulevie",
+      "category": "master"
+    },
+    {
+      "name": "enderpoulepas",
+      "file": "enderpoulepas",
+      "category": "master"
+    },
+    {
+      "name": "enderpouleaie",
+      "file": "enderpouleaie",
+      "category": "master"
+    },
+    {
+      "name": "enderpoulemort",
+      "file": "enderpoulemort",
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.test.mineur": "Mineur Spawn Egg",
+      "block.test.xp_ore": "Xp Ore",
+      "block.test.slime_ore": "Slime Ore",
+      "entity.test.mineur": "Mineur",
+      "entity.test.ender_chicken": "Ender Chicken",
+      "block.test.randomeore": "Randomeore",
+      "item.test.ender_chicken": "Ender Chicken Spawn Egg"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": "1.0.0",
+    "author": "Matthieu, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

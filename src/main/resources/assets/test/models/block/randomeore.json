@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:blocks/random_ore",
+    "up": "test:blocks/random_ore",
+    "north": "test:blocks/random_ore",
+    "east": "test:blocks/random_ore",
+    "south": "test:blocks/random_ore",
+    "west": "test:blocks/random_ore",
+    "particle": "test:blocks/random_ore"
+  }
+}
