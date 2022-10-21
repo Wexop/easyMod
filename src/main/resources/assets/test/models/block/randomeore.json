@@ -8,5 +8,6 @@
     "south": "test:blocks/random_ore",
     "west": "test:blocks/random_ore",
     "particle": "test:blocks/random_ore"
-  }
+  },
+  "render_type": "solid"
 }

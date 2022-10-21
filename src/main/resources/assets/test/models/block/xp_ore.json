@@ -3,5 +3,6 @@
   "textures": {
     "all": "test:blocks/xp",
     "particle": "test:blocks/xp"
-  }
+  },
+  "render_type": "solid"
 }

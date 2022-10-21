@@ -1,6 +1,6 @@
 {
-  "_fv": 10,
-  "_type": "mob",
+  "_fv": 34,
+  "_type": "livingentity",
   "definition": {
     "mobName": "Mineur",
     "mobLabel": "",
@@ -47,9 +47,12 @@
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 5,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
+    "followRange": 16,
     "health": 25,
     "xpAmount": 20,
     "waterMob": false,
@@ -69,6 +72,11 @@
     "immuneToLightning": true,
     "immuneToPotions": false,
     "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": "Items.COAL#0"
     },

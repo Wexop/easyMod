@@ -8,5 +8,6 @@
     "south": "test:blocks/slime_face",
     "west": "test:blocks/slime_face",
     "particle": "test:blocks/slime_face"
-  }
+  },
+  "render_type": "solid"
 }

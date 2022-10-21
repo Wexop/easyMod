@@ -1,6 +1,6 @@
 {
-  "_fv": 10,
-  "_type": "mob",
+  "_fv": 34,
+  "_type": "livingentity",
   "definition": {
     "mobName": "Ender Chicken",
     "mobLabel": "",
@@ -47,9 +47,12 @@
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
+    "attackKnockback": 0.0,
+    "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
+    "followRange": 16,
     "health": 5,
     "xpAmount": 0,
     "waterMob": false,
@@ -69,6 +72,11 @@
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
     },

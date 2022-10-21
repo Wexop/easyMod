@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "SlimeOre",
@@ -7,7 +6,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "slime_ore"
     },
     {
@@ -16,7 +14,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "slime_oui_ore_smelting"
     },
     {
@@ -25,16 +22,14 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "xp_ore"
     },
     {
       "name": "Mineur",
-      "type": "mob",
+      "type": "livingentity",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mineur"
     },
     {
@@ -43,7 +38,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "mineur_entity_dies",
       "metadata": {
         "dependencies": [
@@ -72,7 +66,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "xp_ore_block_destroyed_by_player",
       "metadata": {
         "dependencies": [
@@ -101,7 +94,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "randomeore_block_destroyed_by_player",
       "metadata": {
         "dependencies": [
@@ -130,16 +122,14 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "randomeore"
     },
     {
       "name": "EnderChicken",
-      "type": "mob",
+      "type": "livingentity",
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ender_chicken"
     },
     {
@@ -148,7 +138,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ender_chicken_on_initial_entity_spawn",
       "metadata": {
         "dependencies": [
@@ -177,7 +166,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "ender_chicken_entity_dies",
       "metadata": {
         "dependencies": [
@@ -206,7 +194,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "little_miner_gui"
     }
   ],
@@ -214,47 +201,65 @@
   "sound_elements": [
     {
       "name": "mineur",
-      "file": "bruit_mineur",
+      "files": [
+        "bruit_mineur"
+      ],
       "category": "master"
     },
     {
       "name": "pas_mineur",
-      "file": "pas_mineur",
+      "files": [
+        "pas_mineur"
+      ],
       "category": "master"
     },
     {
       "name": "hurt_mineur",
-      "file": "attaque_mineur",
+      "files": [
+        "attaque_mineur"
+      ],
       "category": "master"
     },
     {
       "name": "mineur_meurs",
-      "file": "mineur_meur",
+      "files": [
+        "mineur_meur"
+      ],
       "category": "master"
     },
     {
       "name": "attaque_mineur",
-      "file": "attaque_mineur",
+      "files": [
+        "attaque_mineur"
+      ],
       "category": "master"
     },
     {
       "name": "enderpoulevie",
-      "file": "enderpoulevie",
+      "files": [
+        "enderpoulevie"
+      ],
       "category": "master"
     },
     {
       "name": "enderpoulepas",
-      "file": "enderpoulepas",
+      "files": [
+        "enderpoulepas"
+      ],
       "category": "master"
     },
     {
       "name": "enderpouleaie",
-      "file": "enderpouleaie",
+      "files": [
+        "enderpouleaie"
+      ],
       "category": "master"
     },
     {
       "name": "enderpoulemort",
-      "file": "enderpoulemort",
+      "files": [
+        "enderpoulemort"
+      ],
       "category": "master"
     }
   ],
@@ -262,12 +267,18 @@
     "en_us": {
       "item.test.mineur": "Mineur Spawn Egg",
       "block.test.xp_ore": "Xp Ore",
+      "item.test.mineur_spawn_egg": "Mineur Spawn Egg",
       "block.test.slime_ore": "Slime Ore",
       "entity.test.mineur": "Mineur",
       "entity.test.ender_chicken": "Ender Chicken",
       "block.test.randomeore": "Randomeore",
-      "item.test.ender_chicken": "Ender Chicken Spawn Egg"
+      "item.test.ender_chicken": "Ender Chicken Spawn Egg",
+      "item.test.ender_chicken_spawn_egg": "Ender Chicken Spawn Egg"
     }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
   },
   "workspaceSettings": {
     "modid": "test",
@@ -281,10 +292,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.15.2",
+    "currentGenerator": "forge-1.19.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.test",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000432115
+  "mcreatorVersion": 202200341417
 }

@@ -1,9 +1,11 @@
 {
   "item.test.mineur": "Mineur Spawn Egg",
   "block.test.xp_ore": "Xp Ore",
+  "item.test.mineur_spawn_egg": "Mineur Spawn Egg",
   "block.test.slime_ore": "Slime Ore",
   "entity.test.mineur": "Mineur",
   "entity.test.ender_chicken": "Ender Chicken",
   "block.test.randomeore": "Randomeore",
-  "item.test.ender_chicken": "Ender Chicken Spawn Egg"
+  "item.test.ender_chicken": "Ender Chicken Spawn Egg",
+  "item.test.ender_chicken_spawn_egg": "Ender Chicken Spawn Egg"
 }
