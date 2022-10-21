@@ -102,7 +102,7 @@
     "whenMobDies": {
       "name": "EnderChickenEntityDies"
     },
-    "onInitialSpawn": {
+    "onMobTickUpdate": {
       "name": "EnderChickenOnInitialEntitySpawn"
     },
     "hasAI": true,
